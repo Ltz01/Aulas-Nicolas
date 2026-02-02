@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.container{
+    height: 100vh
+}
+
+.fundo {
+        background-image: url('https://images.unsplash.com/photo-1521489871110-81dc5a61dbda?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JheXxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000'); 
+        background-size: auto; 
+        background-position: center center;
+        background-repeat: no-repeat; 
+        
+        min-height: 100vh;
+    }
+
+
+.quadrado-inicial{
+    height: 600px;
+    width: 900px;
+    background-color: rgb(100, 100, 100);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px whitesmoke;
+    
+}
+
+
+.quadrado-entrar{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(160, 160, 160);
+    border-radius: 20px 1px 1px 20px;
+    box-shadow: inset 0 0 50px  rgb(107, 107, 107);
+}
+
+
+
+
+
+
+
+
+.metade{
+    height: 50%;
+}
+
+.flex{
+    display: flex;
+}
+
+.linha-meio{
+    justify-content: center;
+}
+
+.linha-final{
+    justify-content: end;
+}
+
+.coluna-final{
+    align-items: end;
+}
+
+.meio {
+    height: 100%;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.final{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coluna-centro{
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.tudo-centro{
+    justify-content: center;
+    align-items: center;
+}
+
+.coluna-meio{
+    align-items: center;
+}
+
+.coluna{
+    flex-direction: column;
+}
+
+.tamanho-medio{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+
+.tamanho-pequeno{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.cor-botao{
+    background-color: rgb(100, 100, 100);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(56, 56, 56);
+}
+
+.tamanho-botao{
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80px;
+    height: 50px;
+    border-radius: 30px 30px 30px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado-meio{
+    height: 100%;
+    width: 70%;
+    background-color: rgb(100, 100, 100);
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0px 0px 30px whitesmoke;
+}
+
+.fonte{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+
+.input{
+    height: 40px;
+    width: 300px;
+    background-color:  rgb(160, 160, 160);
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px rgb(56, 56, 56);
+    font-size: x-large;
+    font-family: impact, fantasy;
+    color: black;
+    padding-left: 15px; 
+    border: none;      
+    outline: none;
+}
+
+.tamanho-cadastrar{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 35px;
+    border-radius: 30px 30px 30px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cor-cadastrar{
+    background-color: rgb(160, 160, 160);
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px  rgb(100, 100, 100);
+}
+
+
+.tamanho-botao-entrar{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    height: 35px;
+    border-radius: 30px 30px 30px 30px;
+    justify-content: center;
+    align-items: center;
+}
