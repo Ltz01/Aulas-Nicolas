@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.square{
+    width: 50%;
+    height: 100vh;
+}
+
+.square1{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    font-size: x-large;
+}
+
+.centro{
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.centro2{
+    align-items: center;
+}
+
+.input{
+    border-radius: 15px;
+    border-color: rgb(172, 172, 172);
+    height: 40px;
+}
+
+.imagem{
+    height: 100vh;
+    width: 100%;
+}
