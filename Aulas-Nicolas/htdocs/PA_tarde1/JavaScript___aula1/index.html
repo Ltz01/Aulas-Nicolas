@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let variavel_let = 5; //variavel do scoop local
+        var variavel_var = "texto"; //variavel do scoop global
+        const variavel_const = true; // variavel do tipo constante
+
+        variavel_let = 10;
+        variavel_var = 70;
+
+        if (variavel_let == 10) {
+            console.log("é igual")
+        }
+        else{
+            console.log("é diferente")
+        }
+
+        function somar(x, y){
+            return x+y;
+        }
+        console.log(somar(10,    20));
+    </script>
+</body>
+
+</html>
