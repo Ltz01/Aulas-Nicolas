@@ -73,6 +73,11 @@
     $hiena->andar();
     $hiena->perigo();
 
+    $taturana = new Animal("Taturana", 185, "Black");
+
+    $taturana->andar();
+    $taturana->perigo();
+
     class Filme{
         public $genero;
         public $ano;
