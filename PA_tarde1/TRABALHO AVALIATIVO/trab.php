@@ -65,7 +65,7 @@ class Pedidos extends Produto{
         }
 
         $this->status = "pago";
-        echo "Status do pedido: {$this->status}<br>";       //mostra o status do pedido (PEDIDOS SÓ SÃO REGISTRADOS NO SISTEMA APÓS SEREM PAGOS)
+        echo "Status do pedido: {$this->status} - ENVIADO<br>";       //mostra o status do pedido (PEDIDOS SÓ SÃO ENVIADOS APÓS SEREM PAGOS)
     }
 
     public function estoque($qtd){      //função que mostra o estoque atualizado
